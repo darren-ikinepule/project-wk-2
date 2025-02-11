@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 0 3px 1px;
+  padding: 10px;
+}
+
+li {
+  display: inline;
+  margin-right: 50px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: hsl(0, 0%, 90%);
+}
+
+.about-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  height: 30vh;
+  /* background: url(image/island-peace.jpeg) no-repeat center center/cover; */
+  background-color: hsl(0, 0%, 95%);
+}
+
+.about-image,
+.about-intro {
+  width: 50%;
+  height: 100%;
+}
+
+.about-intro {
+  /* background: url(image/island-peace.jpeg) no-repeat center center/cover;  */
+  text-align: center;
+  padding: 35px;
+}
+
+.about-image {
+  background: url(image/pic-1.jpg) no-repeat center center/cover;
+  width: 100%;
+}
+
+.about-btn {
+  padding: 5px;
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 100px;
+  transition: 0.4s;
+}
+
+.about-btn:hover {
+  background-color: hsl(84, 100%, 59%);
+}
+
+.my-interest-heading {
+  width: 100vw;
+  text-align: center;
+  padding: 20px;
+}
+
+.my-interest-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  width: 100vw;
+  height: auto;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.my-interest-items {
+  width: 23%;
+  height: 150px;
+  background-color: hsl(0, 0%, 90%);
+  margin: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px 1px black;
+}
+
+.pic-1 {
+  background: url(image/island-peace.jpeg);
+}
+.pic-2 {
+  background: url(image/meditation-1.jpeg);
+}
+.pic-3 {
+  background: url(image/cooking.jpeg);
+}
+.pic-4 {
+  background: url(image/family.jpeg);
+}
+.pic-5 {
+  background: url(image/travel.jpeg);
+}
+.pic-6 {
+  background: url(image/code-pic.jpeg);
+}
+.pic-7 {
+  background: url(image/running.jpeg);
+}
+.pic-8 {
+  background: url(image/adventure.jpeg);
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: hsl(0, 0%, 80%);
+  width: 100vw;
+  height: 10vh;
+}
+
+.social-media-img {
+  margin-right: 100px;
+  width: 200px;
+  height: 70%;
+  background: url(image/social-media.png) no-repeat center center/cover;
+  border-radius: 5px;
+}
+
+footer p {
+  margin-right: 50px;
+  font-size: 2em;
+  text-transform: capitalize;
+}
+
+
